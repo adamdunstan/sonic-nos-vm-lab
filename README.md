@@ -1,7 +1,7 @@
 #  Creating a SoNIC NOS Virtual Lab
 
 
-The example files from the tutorial [Creating a SoNIC NOS Virtual Lab]() published on Medium
+The example files from the tutorial [Creating a SoNIC NOS Virtual Lab](https://medium.com/sonic-nos/creating-a-sonic-nos-virtual-lab-5a9ec431e0d0) published on Medium
 
 <img src="https://github.com/adamdunstan/sonic-nos-vm-lab/blob/main/Sonic-basic-net.png">
 
