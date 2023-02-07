@@ -1,16 +1,12 @@
 #  Creating a SoNIC NOS Virtual Lab
 
 
-There the example files from the tutorial that describes how to create a virtual lab for the SoNIC NOS.
+The example files from the tutorial [Creating a SoNIC NOS Virtual Lab]() published on Medium
 
-<img src="https://https://github.com/adamdunstan/sonic-nos-vm-lab/Sonic-basic-net.png">
-
-
-The tutorial is published on Medium [Creating a SoNIC NOS Virtual Lab]()
+<img src="https://github.com/adamdunstan/sonic-nos-vm-lab/blob/main/Sonic-basic-net.png">
 
 
 It creates a network of three VMs running the sonic-vs image
 
-
-The files consist of the VM configuration xml and associated config_db for sonic
+The consist of the VM configuration xml and associated config_db to create the SoNIC VM's
 

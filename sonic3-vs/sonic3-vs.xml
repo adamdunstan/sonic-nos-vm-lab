@@ -1,13 +1,5 @@
-<!--
-WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
-OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh edit sonic3-vs
-or other application using the libvirt API.
--->
-
 <domain type='kvm'>
   <name>sonic3-vs</name>
-  <uuid>050ac18a-90fa-4db4-a74d-1debcc53587c</uuid>
   <memory unit='KiB'>4096000</memory>
   <currentMemory unit='KiB'>4096000</currentMemory>
   <vcpu placement='static'>1</vcpu>
@@ -47,19 +39,16 @@ or other application using the libvirt API.
       <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
     </controller>
     <interface type='bridge'>
-      <mac address='52:54:00:19:82:2f'/>
       <source bridge='mgtbr0'/>
       <model type='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
     </interface>
     <interface type='bridge'>
-      <mac address='52:54:00:f3:b1:32'/>
       <source bridge='vmbr0'/>
       <model type='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x0'/>
     </interface>
     <interface type='udp'>
-      <mac address='52:54:00:f9:7b:08'/>
       <source address='127.0.0.1' port='10212'>
         <local address='127.0.0.1' port='10211'/>
       </source>
@@ -67,7 +56,6 @@ or other application using the libvirt API.
       <address type='pci' domain='0x0000' bus='0x00' slot='0x07' function='0x0'/>
     </interface>
     <interface type='udp'>
-      <mac address='52:54:00:b5:69:b4'/>
       <source address='127.0.0.1' port='10312'>
         <local address='127.0.0.1' port='10311'/>
       </source>
